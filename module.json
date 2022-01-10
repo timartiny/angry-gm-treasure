@@ -1,0 +1,37 @@
+{
+  "name": "angry-gm-treasure",
+  "title": "Angry GM Treasure",
+  "description": "This module will hold Journal Entries for each type of treasure, that will have info on how much each tier of treasure is worth ranging from Common Trade Good up to Legendary Art Object",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "9",
+  "author": "timartiny",
+  "authors": [
+    {
+      "name": "timartiny"
+    }
+  ],
+  "packs": [
+    {
+      "name": "journals",
+      "label": "Angry GM Treasure",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "compendium-folders",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json",
+      "type": "module"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
